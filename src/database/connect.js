@@ -7,5 +7,4 @@ const connectToDataBase = async () =>{
     .catch((error) => console.log('Ocorreu erro ao tentar ser conectar ao banco de dados', error))
 };
 
-
 module.exports = connectToDataBase
